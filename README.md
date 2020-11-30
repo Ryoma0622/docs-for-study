@@ -4,4 +4,4 @@
 
 ### Github Actions
 
-- [Github Actions についてちょっと調べてみた](https://github.com/Ryoma0622/docs-for-study/20201130_what-is-gha.html)
+- [Github Actions についてちょっと調べてみた](/20201130_what-is-gha.html)
