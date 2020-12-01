@@ -84,12 +84,12 @@ workflows:
 # This is a basic workflow to help you get started with Actions
 name: My First Action
 # Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# events but only for the main branch
 on:
   push:
-    branches: [ dev, test, master ]
+    branches: [ dev, test, main ]
   pull_request:
-    branches: [ dev, test, master ]
+    branches: [ dev, test, main ]
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
