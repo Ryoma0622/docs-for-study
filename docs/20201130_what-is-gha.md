@@ -20,9 +20,9 @@ Git push や PR などのイベントをトリガーとして yml に定義し�
 * **Cons**
 	* 料金が高い
 		* [CIツール コスト比較 GithubActions,TravisCI,CircleCI](https://chariosan.com/2020/07/19/comparison_ci_tool_cost/#GithubActions)
-			* > CircleCIはクレジット料金の他に、プロジェクトに関わるユーザー数に応じて課金されるようになっています。
-			* 開発メンバーが増えていくにつれ、料金が上がる
-		* [プログルのCI/CDをCircleCIからGithub Actionsに移行した話](https://techblog.code.or.jp/entry/2020/04/14/183000)
+		* 開発メンバーが増えていくにつれ、料金が上がる
+			* [プログルのCI/CDをCircleCIからGithub Actionsに移行した話](https://techblog.code.or.jp/entry/2020/04/14/183000)
+			* > CircleCIはクレジット料金の他に、プロジェクトに関わるユーザー数に応じて課金されるようになっています。 
 
 #### Example
 
@@ -68,7 +68,6 @@ workflows:
 		* [paths](https://docs.github.com/ja/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths)
 	* 自分のランナーをホストできる [GithubDocs - 自己ホストランナーについて](https://docs.github.com/ja/free-pro-team@latest/actions/hosting-your-own-runners)
 		* 柔軟なテストを実行できる
-> [引用: GithubDocs - 自己ホストランナーについて](https://docs.github.com/ja/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#%E8%87%AA%E5%B7%B1%E3%83%9B%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)   
 > セルフホストランナーでは、ハードウェア、オペレーティングシステム、ソフトウェアツールについてGitHubホストランナーよりもコントロールできます。  
 > セルフホストランナーでは、大規模なジョブを実行するために処理能力やメモリを強化したカスタムハードウェア構成を作ったり、ローカルネットワークで  
 > 利用できるソフトウェアをインストールしたり、GitHubホストランナーでは提供されていないオペレーティングシステムを選択したりできます。  
@@ -77,7 +76,7 @@ workflows:
 * **Cons**
 	* **Steps を使い回せない**
 	* **pushするブランチごとに  ファイルを作成する必要がある**
-		* CircleCI の設定ファイルの workflows のようなキーがない為
+		* CircleCI の設定ファイルの [workflows](https://circleci.com/docs/ja/2.0/configuration-reference/#workflows) キーのような記法がない為
 
 #### Example
 
