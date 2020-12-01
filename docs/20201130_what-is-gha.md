@@ -137,3 +137,5 @@ jobs:
 * [プログルのCI/CDをCircleCIからGithub Actionsに移行した話](https://techblog.code.or.jp/entry/2020/04/14/183000)
 * [Github Actions 8ヶ月使ってみてわかったことまとめ](https://qiita.com/bigwheel/items/2ab7deb237122db2fb8d)
 * [GitHub Actions、Travis CI、CircleCIの気になる部分の比較](https://qiita.com/reireias/items/04b167fed442bca05de1)
+* [GitHub ActionsWorkflowに指定しているubuntu-latestが18.04から20.04に！あなたのWorkflowは大丈夫？年末年始休暇前に要チェック | Developers.IO](https://dev.classmethod.jp/articles/check-runs-on-params-on-workflow/)
+	* [Ubuntu-latest workflows will use Ubuntu-20.04 #1816](https://github.com/actions/virtual-environments/issues/1816)
